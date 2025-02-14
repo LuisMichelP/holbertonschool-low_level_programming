@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * first func
- * Returns: 0
+ * main - Using put
+ * first function using put
+ * Return: 0
  */
 int main(void)
 {
