@@ -3,7 +3,7 @@
 #include <stdio.h>
 /*
  * main - print if
- * function: print depending on the case
+ * My function: print depending on the case
  * Return: 0 if success
  */
 int main(void)
