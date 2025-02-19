@@ -3,11 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Print int
- *
- * My function: print the last digit
- *
- * Return: Always 0 (Success)
+ * main - print int and last digit
+ *print the last digit and evaluate
+ * Return: 0 if success
  */
 
 int main(void)
