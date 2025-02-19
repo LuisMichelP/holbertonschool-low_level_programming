@@ -11,8 +11,11 @@ int main(void)
 {
 	int alphabet;
 
-	for (alphabet = 0x00; alphabet <= 0x0F; alphabet++)
-		putchar(alphabet);
+	for (alphabet = 0; alphabet <= 15; alphabet++)
+		if (alphabet < 10)
+			putchar(alphabet);
+		else
+			putchar('a'+(alphabet-10));
 	putchar('\n');
 	return (0);
 }
