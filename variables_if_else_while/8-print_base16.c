@@ -10,7 +10,7 @@
 int main(void)
 {
 	int alphabet;
-	char ch = 'a';
+	char ch = '0';
 
 	for (alphabet = 0; alphabet <= 15; alphabet++)
 		if (alphabet < 10)
