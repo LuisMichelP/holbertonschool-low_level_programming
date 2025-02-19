@@ -16,7 +16,7 @@ int main(void)
 		if (alphabet < 10)
 			putchar(ch++);
 		else
-			putchar('a'+(alphabet-10));
+			putchar('a' + (alphabet - 10));
 	putchar('\n');
 	return (0);
 }
