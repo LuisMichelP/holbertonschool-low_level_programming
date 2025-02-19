@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
+/**
  * main - print if
+ *
  * My function: print depending on the case
+ *
  * Return: 0 if success
  */
 int main(void)
