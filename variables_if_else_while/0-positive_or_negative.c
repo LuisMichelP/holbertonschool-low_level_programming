@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main - print if's
- * function to print depending on the case
+ * main - print if
+ * function: print depending on the case
  * Return: 0 if success
  */
 int main(void)
