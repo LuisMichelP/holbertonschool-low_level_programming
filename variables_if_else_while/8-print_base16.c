@@ -10,10 +10,11 @@
 int main(void)
 {
 	int alphabet;
+	char ch = 'a';
 
 	for (alphabet = 0; alphabet <= 15; alphabet++)
 		if (alphabet < 10)
-			putchar(alphabet);
+			putchar(ch++);
 		else
 			putchar('a'+(alphabet-10));
 	putchar('\n');
