@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.io>
+#include <stdio.h>
 /*
  * main - print if's
  * function to print depending on the case
