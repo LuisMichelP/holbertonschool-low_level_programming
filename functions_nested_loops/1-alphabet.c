@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - function to printchar
- * print by for
- * Return 0: if successful
+ *
+ *
+ *
  */
-
-int main (void)
+void print_alphabet(void)
 {
-	char a;
-	for (a = "a"; a <= "z"; a++)
+	int a;
+	for (a = 0; a<26; a++)
 		_putchar(a);
-	_putchar("\n");
+	_putchar('\n');
+	return(0);
 }
