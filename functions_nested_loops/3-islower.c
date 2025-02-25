@@ -3,6 +3,7 @@
 
 /**
  * _islower - lower func
+ * @c: int
  * determines if char is lower case or upper case
  * Return: 1 if lower, 0 if upper
  */
