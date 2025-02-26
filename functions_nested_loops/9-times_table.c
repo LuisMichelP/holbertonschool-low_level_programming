@@ -22,8 +22,8 @@ void times_table(void)
 				r = i * x;
 				if (r > 9)
 				{
-					_putchar('0' + (c / 10));
-					_putchar('0' + (c % 10));
+					_putchar('0' + (r / 10));
+					_putchar('0' + (r % 10));
 				}
 				else
 				{
