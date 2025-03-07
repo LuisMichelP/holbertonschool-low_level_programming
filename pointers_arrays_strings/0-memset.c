@@ -4,6 +4,9 @@
 /**
  * _memset: function to fill memory in a string
  * Just for fun
+ * @s : empty string space
+ * @b : char
+ * @n : int
  * Return: str s
  */
 
