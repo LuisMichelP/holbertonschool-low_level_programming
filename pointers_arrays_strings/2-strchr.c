@@ -15,15 +15,12 @@
 
 char *_strchr(char *s, char c)
 {
-	unsigned int i;
+	int i;
 
-	for (i = 0; i <= strlen(s); i++)
+	for (i = 0; (s[i] != '\0') & (s[i] != c); i++)
 	{
-		if (s[i] == c)
-		{
-			return (*s[i]);
-		}
-		if else (i == strlen(s))
+		if ((s[i] == '\0') & (c != '\0'))
 			return (NULL);
 	}
+	return (s + i);
 }
