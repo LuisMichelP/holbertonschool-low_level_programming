@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _memset: function to fill memory in a string
+ * _memset - function to fill memory in a string
  * Just for fun
  * @s : empty string space
  * @b : char
