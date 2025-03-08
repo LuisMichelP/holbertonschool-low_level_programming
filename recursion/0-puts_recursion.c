@@ -13,17 +13,15 @@
 
 void _puts_recursion(char *s)
 {
-	unsigned int i;
-
-	for (i = 0; s[i] == '\0'; i++)
+	if (*s == '\0')
 	{
-		if (s[i] != '\0')
-		{
-			putchar(s[i]);
-		}
-		else if (s[i] == '\0')
-		{
-			putchar('\n');
-		}
+		_putchar('\n');
+		return;
+	}
+	else
+	{
+		_putchar(*s);
+		s++;
+		_puts_recursion(s);
 	}
 }
