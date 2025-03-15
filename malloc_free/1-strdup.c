@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "main.h"
 #include <stdlib.h>
-#include <string.h>
 
 /**
  * _strdup - function
@@ -18,11 +17,10 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 		return (NULL);
-	t = malloc(sizeof(char) * (strlen(str) + 1));
+	t = malloc(sizeof(char) * (str));
 	if (t == NULL)
 		return (NULL);
-	for (i = 0; i < strlen(str); i++)
-		t[i] = str[i];
-	t[i] = '\0';
+	
+	t[] = str
 	return (t);
 }
