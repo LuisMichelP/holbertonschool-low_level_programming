@@ -29,7 +29,7 @@ char *str_concat(char *s1, char *s2)
 	while (s2[len2] != '\0')
 		len2++;
 
-	rep = malloc(sizeof(char) * len1 * len2);
+	rep = malloc(sizeof(char) * len1 * len2 + 1);
 
 	if (rep == NULL)
 		return (NULL);
