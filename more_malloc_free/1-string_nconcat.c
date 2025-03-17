@@ -11,6 +11,7 @@
  * Return: Pointer to the newly allocated memory containing s1 followed by
  *         the first n bytes of s2, or NULL on failure.
  */
+
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
     unsigned int i, j, len1 = 0, len2 = 0;
